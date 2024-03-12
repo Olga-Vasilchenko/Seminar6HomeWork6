@@ -24,18 +24,24 @@ D:\GB\Spring4462\distributiv\nssm-2.24\win64> \nssm.exe install prometheus D:\GB
 
 dependency
     groupId>org.springframework.boot</groupId
+    
     artifactId>spring-boot-starter-actuator</artifactId
+    
 /dependency
 
 dependency
     groupId>io.micrometer</groupId
+    
     artifactId>micrometer-core</artifactId
+    
     version>1.12.2</version
 /dependency
 
 dependency
     groupId>io.micrometer</groupId
+    
     artifactId>micrometer-registry-prometheus</artifactId
+    
     version>1.12.2</version
 /dependency
 
