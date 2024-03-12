@@ -1,6 +1,6 @@
-package com.example.Seminar6HomeWork6.services;
+package com.example.Seminar11HomeWork11.services;
 
-import com.example.Seminar6HomeWork6.models.Note;
+import com.example.Seminar11HomeWork11.models.Note;
 
 import java.util.List;
 

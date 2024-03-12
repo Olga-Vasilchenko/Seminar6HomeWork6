@@ -1,8 +1,7 @@
-package com.example.Seminar6HomeWork6.models;
+package com.example.Seminar11HomeWork11.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 

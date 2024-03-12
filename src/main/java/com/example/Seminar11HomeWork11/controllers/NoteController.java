@@ -1,7 +1,7 @@
-package com.example.Seminar6HomeWork6.controllers;
+package com.example.Seminar11HomeWork11.controllers;
 
-import com.example.Seminar6HomeWork6.models.Note;
-import com.example.Seminar6HomeWork6.services.NoteService;
+import com.example.Seminar11HomeWork11.models.Note;
+import com.example.Seminar11HomeWork11.services.NoteService;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.Metrics;
 import lombok.RequiredArgsConstructor;
