@@ -23,6 +23,7 @@ D:\GB\Spring4462\distributiv\nssm-2.24\win64> \nssm.exe install prometheus D:\GB
 Добавляем зависимости в проект:
 
 dependency
+
     groupId>org.springframework.boot</groupId
     
     artifactId>spring-boot-starter-actuator</artifactId
@@ -30,26 +31,33 @@ dependency
 /dependency
 
 dependency
+
     groupId>io.micrometer</groupId
     
     artifactId>micrometer-core</artifactId
     
     version>1.12.2</version
+    
 /dependency
 
 dependency
+
     groupId>io.micrometer</groupId
     
     artifactId>micrometer-registry-prometheus</artifactId
     
     version>1.12.2</version
+    
 /dependency
 
 Добавляем в prometheus.YAML-файл наш микросервис:
 
 - job_name: 
 "notes-microservice"
+
  metrics_path: "actuator/prometheus"
+ 
  static_configs:
+ 
  - targets: ["localhost:8080"]
 
